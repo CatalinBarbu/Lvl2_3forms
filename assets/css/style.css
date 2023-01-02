@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  padding: 25vh 0;
+  width: 500px;
+  margin: 0 auto;
+}
+.gender,
+.ite {
+  display: flex;
+}
+.name input {
+  margin-left: 82px;
+}
+.gender p:first-of-type {
+  padding: 0 5px 0 78px;
+}
+.gender p:last-of-type {
+  padding: 0 5px 0 5px;
+}
+.picture input {
+  margin-left: 77px;
+}
+.country select {
+  margin-left: 70px;
+}
+.html {
+  display: flex;
+  align-items: center;
+}
+.html p {
+  align-self: flex-end;
+}
+.ite input {
+  margin-left: 10px;
+}
+.ite input:first-of-type {
+  margin-left: 20px;
+}
+.button input {
+  cursor: pointer;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 5px;
+}

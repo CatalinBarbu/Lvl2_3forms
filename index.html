@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lvl2_3-Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <div class="name">
+          <label> Name</label>
+          <input type="text" name="Name" id="Name" placeholder="Name" />
+        </div>
+        <div class="name">
+          <label for="Name"> Name</label>
+          <input
+            type="text"
+            name="Surname"
+            id="Surname"
+            placeholder="Surname"
+          />
+        </div>
+        <div class="name">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="gender">
+          <label for="Gender"> Gender</label>
+          <p>Male</p>
+          <input type="radio" name="Gender" id="Gender" />
+          <p>Female</p>
+          <input type="radio" name="Gender" id="Gender" />
+        </div>
+        <div class="picture">
+          <label for="Picture">Picture</label>
+          <input type="file" name="file" id="file" />
+        </div>
+        <div class="country">
+          <label for="country">Country</label>
+          <select name="" id="">
+            <option value="Germany">Germany</option>
+            <option value="Germany">Spain</option>
+            <option value="Germany">France</option>
+          </select>
+        </div>
+        <div class="html">
+          <label for="">Preferred languages</label>
+          <select multiple="multiple">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+            <option>React</option>
+          </select>
+          <p>(To choose more than one use cmd key)</p>
+        </div>
+        <div class="ite">
+          <label for="">Fieled of activity</label>
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <p>IT</p>
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <p>Design</p>
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <p>Other</p>
+        </div>
+        <div class="button">
+          <input type="submit" value="Send" />
+          <input type="button" value="Cancel" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
